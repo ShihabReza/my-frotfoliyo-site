@@ -8,7 +8,7 @@ const About = () => {
     <img src="http://shanereact.ibthemespro.com/img/about/1.jpg" class="max-w-sm rounded-lg shadow-2xl" />
     <div>
       <h1 class="text-5xl font-bold">Creative Independent Web Developer based in USA</h1>
-      <p class="py-6">I'm web designer, and I'm very passionate and dedicated to my work. With 20 years experience as a professional web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.
+      <p class="py-6">I am Shihab I am a student I am studying and learning font and development and work I want to work as a font and developer accountant in the future. I'm a very detail-oriented person and am also hardworking and responsible especially with deadlines.
 
 </p>
 <a href={resume} download={resume}><button class="btn btn-outline text-accent">Download Resume</button></a>

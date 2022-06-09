@@ -8,7 +8,7 @@ const Navbar = ({children}) => {
   <li><a href='/'>Home</a></li>
   <li><a href='/about'>About</a></li>
   <li><a href='/Counts'>Counts</a></li>
-  <li><a href={Resume} download={Resume}>Download Resume</a></li>
+  <a href={Resume} download={Resume}><button class="btn btn-outline text-white">Download Resume</button></a>
   
  
   
@@ -40,8 +40,7 @@ const Navbar = ({children}) => {
     <label for="my-drawer-3" class="drawer-overlay"></label> 
     <ul class="menu p-4 overflow-y-auto w-80 bg-base-100">
       
-      <li><a>Sidebar Item 1</a></li>
-      <li><a>Sidebar Item 2</a></li>
+      {menuItems}
       
     </ul>
     
