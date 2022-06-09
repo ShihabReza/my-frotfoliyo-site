@@ -11,6 +11,8 @@ const About = () => {
       <p class="py-6">I am Shihab I am a student I am studying and learning font and development and work I want to work as a font and developer accountant in the future. I'm a very detail-oriented person and am also hardworking and responsible especially with deadlines.
 
 </p>
+<p className="text-xl font-bold font-mono">shihabreza457@gmail.com</p>
+<p className='font-mono'>01870157544</p>
 <a href={resume} download={resume}><button class="btn btn-outline text-accent">Download Resume</button></a>
     </div>
   </div>
