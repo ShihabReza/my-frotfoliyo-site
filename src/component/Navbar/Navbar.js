@@ -1,7 +1,7 @@
 import React from 'react';
 import Resume from '../../resume/Resume (3).pdf'
 import img from '../../img/preview.jpg'
-import { Link } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 
 const Navbar = ({children}) => {
   const menuItems = <>
@@ -15,6 +15,7 @@ const Navbar = ({children}) => {
 </>
     return (
         <div class="drawer">
+          <Outlet></Outlet>
   <input id="my-drawer-3" type="checkbox" class="drawer-toggle" /> 
   <div class="drawer-content flex flex-col">
    
