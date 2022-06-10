@@ -1,4 +1,5 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 
 import CountsUs from '../../CountcUs/CountsUs';
 import About from '../About/About';
@@ -22,6 +23,7 @@ const Home = () => {
             <CountsUs></CountsUs>
             <Revews></Revews>
             <Footer></Footer>
+            <Outlet></Outlet>
         </div>
     );
 };
