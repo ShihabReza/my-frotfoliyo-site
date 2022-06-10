@@ -8,6 +8,7 @@ const Navbar = ({children}) => {
   <li><a href='/'>Home</a></li>
   <li><a href='/about'>About</a></li>
   <li><a href='/Counts'>Counts</a></li>
+  <li><a href='/blog'>Blog</a></li>
   <a href={Resume} download={Resume}><button class="btn btn-outline text-white">Download Resume</button></a>
   
  

@@ -9,6 +9,7 @@ import Protfoliyo from './component/Protfoliyo/Protfoliyo';
 import CountsUs from './CountcUs/CountsUs';
 import Footer from './component/Footer/Footer';
 import Detals from './component/Detals/Detals';
+import Blog from './component/Blog/Blog';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path='protfolio' element={<Protfoliyo></Protfoliyo>}></Route>
             <Route path='/detals' element={<Detals></Detals>}></Route>
             <Route path='/counts' element={<CountsUs></CountsUs>}></Route>
+            <Route path='/blog' element={<Blog></Blog>}></Route>
           </Routes>
           
       </Navbar>
